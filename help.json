@@ -1,0 +1,23 @@
+{
+    "version": "0.2.6",
+    "author": "<a href='http://github.com/Mat-Thieu' target='_blank'>@Mat-thieu</a>",
+    "subjects" : {
+        "controller": {
+            "create": "Create controller: create controller [name] or create c [name]",
+            "delete": "Delete controller: delete controller [name] or delete c [name]",
+            "pushback": "recover controller: pushback controller [name] [full-date-time] or pushback c [name] [full-date-time]"
+        },
+        "migration": [
+            {
+                "type": "prepared",
+                "push": "migration [name] push",
+                "drop": "migration [name] drop"
+            },
+            {
+                "type": "user",
+                "push": "migration [name] push",
+                "drop": "migration [name] drop"
+            }
+        ]
+    }
+}
